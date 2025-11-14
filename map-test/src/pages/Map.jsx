@@ -5,6 +5,8 @@ export default function BasicMap() {
   useKakaoLoader()
 
   return (
+    <>
+    <h1>React Kakao Maps SDK</h1>
     <Map // 지도를 표시할 Container
       id="map"
       center={{
@@ -19,6 +21,7 @@ export default function BasicMap() {
         margin: "200px auto"
       }}
       level={3} // 지도의 확대 레벨
-    />
+      />
+    </>
   )
 }
